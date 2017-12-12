@@ -2,7 +2,7 @@
   text-align: center;
 }
 .title {
-  height: 90vh;
+  height: 95vh;
   background-image: linear-gradient(
     to right bottom,
     darkblue,
@@ -39,10 +39,11 @@ h3 {
 .footer {
   height: 20px;
   display: block;
-  position: absolute;
+  position: relative;
   text-align: center;
   margin: auto;
   padding: 10px;
   color: grey;
+  float: right;
   ;
 }

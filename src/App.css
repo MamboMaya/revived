@@ -1,0 +1,41 @@
+.App {
+  height: 95vh;
+  background-image: linear-gradient(
+    to right bottom,
+    darkblue,
+    rgba(40,180,131,0.8)),
+    url('./water.jpg');
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  text-align: center;
+  font-family: 'proxima-nova';
+  font-style: oblique;
+  font-weight: 100;
+  font-size: 40px;
+  color: grey;
+  text-shadow: 0 1px 1px grey;
+  margin-bottom: 100px;
+  display: block;
+}
+.title {
+  /*border: 5px solid red;*/
+  transform: translateY(70%);
+}
+h1 {
+  margin: 0 auto;
+  letter-spacing: 8px;
+}
+h5 {
+  font-style: normal;
+}
+
+.footer {
+  display: block;
+  /*border: 5px solid red;*/
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  ;
+}
